@@ -4,6 +4,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Estilos para o título h2 */
 h2 { 
     font-size: 40px;
     position: absolute; 
@@ -13,6 +15,7 @@ h2 {
     padding: 10px;
 }
 
+/* Estilos para os parágrafos */
 p {
     position: absolute; 
     top: 51%; left: 50%; 
@@ -23,48 +26,57 @@ p {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+/* Estilos para o corpo do documento */
 body {
     font-family: 'Trebuchet MS', Arial, sans-serif;
     background-color: black;
     color: #333;
 }
 
+/* Estilos para o cabeçalho */
 header {
     background-color: rgb(15, 48, 82);
     padding: 2rem;
 }
 
+/* Estilos para a lista de navegação */
 nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
 }
 
+/* Estilos para os itens da lista de navegação */
 nav ul li {
     margin: 0 1rem;
 }
 
+/* Estilos para os links da navegação */
 nav ul li a {
     color: white;
     text-decoration: none;
 }
 
+/* Estilos para os links ao passar o mouse */
 nav ul li a:hover {
     background-color: white;
     color: rgb(15, 48, 82);
     padding: 0.5rem;
 }
 
+/* Estilos para o conteúdo principal */
 main {
     padding: 2rem;
     text-align: center;
 }
 
+/* Estilos para as imagens */
 img { 
     width: 100%; 
     height: auto;
 } 
 
+/* Estilos para o título dentro do contêiner */
 .container h1 { 
     position: absolute; 
     top: 51%; left: 50%; 
@@ -73,15 +85,18 @@ img {
     padding: 10px; 
     font-size: 60px;
     }
-    
+
+    /* Estilos para esconder seções */
 .secao {
     display: none;
 }
 
+/* Estilos para exibir a seção ativa */
 .ativa {
     display: block;
 }
 
+/* Estilos para a seção de contato */
 #contato {
         position: absolute; 
         top: 25%; left: 50%; 
@@ -91,6 +106,7 @@ img {
         background-color: rgba(0, 0, 0, 0.5);  
 }
 
+/* Estilos para os links na seção de portfólio */
 #portfolio a {
         position: absolute; 
         top: 60%; left: 50%; 
@@ -99,12 +115,14 @@ img {
         padding: 60px;
 }
 
+/* Estilos para os links ao passar o mouse na seção de portfólio */
 #portfolio a:hover {
         background-color: white;
         color: rgb(15, 48, 82);
         padding: 0.5rem; 
 }
 
+/* Estilos para o rodapé */
 footer {
     background-color: rgb(15, 48, 82);
     color: white;
